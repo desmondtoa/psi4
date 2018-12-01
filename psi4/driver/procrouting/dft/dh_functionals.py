@@ -766,57 +766,6 @@ funcs.append({
     },
 })
 
-funcs.append({
-    "name": "XYGJ-OS",
-    "x_functionals": {
-        "GGA_X_SVWN": {
-            "alpha": 0.2269
-        }
-    },
-    "x_hf": {
-        "alpha": 0.7731
-    },
-    "c_functionals": {
-        "GGA_C_LYP": {
-            "alpha": 0.2754
-        },
-        "GGA_C_SVWN": {
-        	"alpha": 0.2309
-        }
-    },
-    "c_mp2": {
-        "os": 0.4364,
-        "ss": 0.00
-    },
-    "citation": '    I. Y. Zhang, X. Xu, Y. Jung and W. A. Goddard, Proceedings of the National Academy of Sciences 2011, 108, 19896-19900\n',
-    "description": '    XYGJ-OS Double Hybrid Exchange-Correlation Functional\n',
-})
-
-funcs.append({
-    "name": "XYG3",
-    "x_functionals": {
-        "GGA_X_SVWN": {
-            "alpha": 0.1967
-        },
-        "GGA_X_B88": {
-        	"alpha": 0.2107
-        }
-    },
-    "x_hf": {
-        "alpha": 0.8033
-    },
-    "c_functionals": {
-        "GGA_C_LYP": {
-            "alpha": 0.6789
-        }
-    },
-    "c_mp2": {
-        "alpha": 0.3211
-    },
-    "citation": '    Y. Zhang, X. Xu and W. A. Goddard, Proceedings of the National Academy of Sciences 2009, 106, 4963-4968\n',
-    "description": '    XYG3 Double Hybrid Exchange-Correlation Functional\n',
-})
-
 
 functional_list = {}
 for functional in funcs:
